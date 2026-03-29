@@ -23,12 +23,14 @@ GSonic Reference is a high-quality speaker and room correction tool that generat
 
 **[⬇ Download Latest Release](https://github.com/ObsessiveCompulsiveAudiophile/GSonic/releases/latest)**
 
-### Windows
-1. Download `GSonic-Reference-v1.0-Windows.zip` from the [Releases](https://github.com/ObsessiveCompulsiveAudiophile/GSonic/releases) page
-2. Extract the zip to a folder of your choice
-3. Run `GSonic.exe`
+| Platform | Download | Audio Backend |
+|---|---|---|
+| **Windows** | [GSonic-Reference-v1.0-Windows.zip](https://github.com/ObsessiveCompulsiveAudiophile/GSonic/releases/latest) | ASIO + WASAPI |
+| **macOS (Apple Silicon)** | [GSonic-Reference-v1.0-macOS-ARM.zip](https://github.com/ObsessiveCompulsiveAudiophile/GSonic/releases/latest) | CoreAudio |
+| **macOS (Intel)** | [GSonic-Reference-v1.0-macOS-Intel.zip](https://github.com/ObsessiveCompulsiveAudiophile/GSonic/releases/latest) | CoreAudio |
+| **Linux** | [GSonic-Reference-v1.0-Linux.zip](https://github.com/ObsessiveCompulsiveAudiophile/GSonic/releases/latest) | ALSA |
 
-> **Note:** macOS and Linux builds will be available in a future release.
+**Installation:** Download the zip for your platform, extract to any folder, and run `GSonic` (or `GSonic.exe` on Windows).
 
 ---
 
@@ -82,8 +84,10 @@ GSonic Reference ships with several target curve presets in the `targetCurves/` 
 
 | | Requirement |
 |---|---|
-| **OS** | Windows 10/11 (64-bit) |
-| **Audio** | Any ASIO or WASAPI compatible audio interface |
+| **Windows** | Windows 10/11 (64-bit) |
+| **macOS** | macOS 12+ (Intel or Apple Silicon) |
+| **Linux** | Ubuntu 22.04+ or equivalent (64-bit) |
+| **Audio** | Any compatible audio interface |
 | **Microphone** | Measurement microphone recommended (e.g. UMIK-1, EMM-6) |
 
 ---
