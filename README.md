@@ -11,7 +11,7 @@ GSonic Reference is a high-quality speaker and room correction tool that generat
 - **Integrated Measurement & Filter Generation** — Measure and generate in a single application
 - **Spatial Averaging** — Multi-position measurement for robust, position-independent correction
 - **Automatic Clock Drift Compensation** — No need for loopback cables or synchronized clocks
-- **Low Latency Filters** — 32,768-tap FIR filters at 48 kHz (682 ms, ~0.7 s processing latency)
+- **Low Latency Filters** — 32,768-tap FIR filters at 48 kHz (pure C++ codebase, 682 ms, ~0.7 s processing latency)
 - **Stereo Balance** — Perceptual loudness-based stereo balancing
 - **Target Curve Support** — Built-in presets or bring your own custom target curves
 - **Multiple Output Formats** — Mono (L/R) and interleaved stereo WAV filters for maximum compatibility
