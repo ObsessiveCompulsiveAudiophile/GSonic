@@ -101,5 +101,5 @@ Commercial use requires written permission. See [LICENSE](LICENSE) for details.
 
 ## 🔗 Links
 
-- **Video Tutorial**: [youtube.com/@ocaudiophile](https://youtube.com/@ocaudiophile)
+- **Video Tutorial**: [youtu.be/APSUrrDv0zI](https://youtu.be/APSUrrDv0zI)
 - **Issues & Feedback**: [GitHub Issues](https://github.com/ObsessiveCompulsiveAudiophile/GSonic/issues)
